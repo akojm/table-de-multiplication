@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE-MULTIPLICATION</title>
+    <link rel="stylesheet" href="/asset/CSS/main.css">
+</head>
+<body>
+    <h1>Table de multiplication</h1>
+    <div class="content-table">
+        <div class="space-nombre">
+            <label for="value" >Saisir un nombre</label>
+            <input type="number"  onchange="table(this.value)"  onkeyup="table(this.value)" name="value" class="form-control" id="value-nombre" >
+            <span id="error"></span>
+       </div>
+   
+    <div id="result" class="table-result">
+       </div>
+     </div>
+    <script src="/asset/JS/script.js"></script>
+</body>
+</html>
